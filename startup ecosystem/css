@@ -1,0 +1,49 @@
+#services{
+    padding: 30px 0;
+    
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250x,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+
+}
+.serviceslist div{
+    background: #262626;
+    padding: 40px;
+    font-size:13px ;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s,transforn 0.5s;
+}
+.serviceslist div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+
+
+
+}
+.serviceslist div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.serviceslist div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.serviceslist div:hover{
+    background: #ff004f;
+    transform: translateY(-10px);
+
+}
+.social-icons a{
+    font-size: 50px;
+    margin-bottom: 30px;
+    transform: 0.5s;
+
+}
